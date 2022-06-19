@@ -1,0 +1,35 @@
+@media (max-width: 700px) {
+    .home-content{
+        width: 70%;
+    }
+    nav ul{
+        display: none;
+    }
+    nav span{
+        display: flex;
+    }
+    .about-content h2{
+        margin-bottom: 15px;
+    }
+    .about-content p{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    .about-content{
+        width: 90%;
+    }
+}
+
+@media (max-width:900px) {
+    .about-content h2{
+        font-size: 25px;
+    }
+    .about-content p{
+        font-size: 16px;
+    }
+    .about-btn{
+        font-size: 15px;
+    }
+}
