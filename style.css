@@ -157,6 +157,7 @@ nav ul li a{
     position: absolute;
     top: 20%;
     left: 50%;
+    transform: translate(-50%, -50%);
     background: #fff;
     animation: scrollDown 1.5s infinite;
 }
